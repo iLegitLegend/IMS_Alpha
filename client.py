@@ -1,6 +1,6 @@
 import socket
-host = 'Lab120-04'
-port = 9440
+host = ''
+port = 7654
 buffer_size = 1024
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((host, port))
